@@ -13,20 +13,31 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 # Register No:Abilasha
 # Developed By:25015770
 # 1-Norm of a Matrix
-<img width="1320" height="602" alt="Screenshot 2025-11-27 111439" src="https://github.com/user-attachments/assets/246a65b9-f6cb-43dd-bd6a-42144a1d5e02" />
 
+import numpy as np
+a=np.array(eval(input()))
+norm1=np.linalg.norm(a,1)
+print(f"{norm1:.2f}")
 
 
 
 # 2-Norm of a Matrix
 
+import numpy as np
+a=np.array(eval(input()))
+norm2=np.linalg.norm(a,2)
+print(f"{norm2:.2f}")
 
-<img width="1331" height="530" alt="Screenshot 2025-11-27 111501" src="https://github.com/user-attachments/assets/3a1f9637-17f9-43bf-97ce-8dd707b3896d" />
+
+
 
 
 # Infinity Norm of a Matrix
 
-<img width="1295" height="468" alt="Screenshot 2025-11-27 111522" src="https://github.com/user-attachments/assets/983b5704-728c-4ead-9aa0-0f6ee6d952f6" />
+import numpy as np
+a=np.array(eval(input()))
+norm=np.linalg.norm(a,ord=np.inf)
+print(f"{norm:.2f}")
 
 
 
@@ -34,14 +45,21 @@ To write a program to find the 1-norm, 2-norm and infinity norm of the matrix an
 ```
 ## Output:
 ### 1-Norm of a Matrix
-<img width="1198" height="217" alt="Screenshot 2025-11-27 111450" src="https://github.com/user-attachments/assets/6400e142-abd2-40dd-ad2f-30da54b6b730" />
+
+
+<img width="1223" height="845" alt="Screenshot 2025-11-27 113020" src="https://github.com/user-attachments/assets/91d0aefb-7773-4eee-8aa2-1b20d012cc4a" />
+
 
 ### 2-Norm of a Matrix
-<img width="1181" height="236" alt="Screenshot 2025-11-27 111512" src="https://github.com/user-attachments/assets/ab877e58-eb64-4780-97d1-7f8c13c5d8a1" />
+
+
+<img width="1243" height="872" alt="Screenshot 2025-11-27 113030" src="https://github.com/user-attachments/assets/757688cb-98c8-4ae4-8725-9300eb0f8e1d" />
 
 ### Infinity Norm of a Matrix
 
-<img width="1172" height="210" alt="Screenshot 2025-11-27 111530" src="https://github.com/user-attachments/assets/a43d9930-6aed-4782-8e00-bf32165b7cbf" />
+
+<img width="1190" height="843" alt="Screenshot 2025-11-27 113041" src="https://github.com/user-attachments/assets/e81adc47-44e9-4b60-beaf-51c367e5c4a1" />
+
 
 ## Result
 Thus the program for 1-norm, 2-norm and Infinity norm of a matrix are written and verified.
